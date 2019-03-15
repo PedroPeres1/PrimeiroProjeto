@@ -1,0 +1,44 @@
+
+public class Onibus {
+	private String compania;
+	private Integer npassageiro;
+	
+public Onibus() {
+ super();
+}
+
+public Onibus(String compania, Integer npassageiro) {
+	super();
+	this.compania=compania;
+	this.npassageiro=npassageiro;
+}
+
+
+public String getCompania() {
+	return compania;
+}
+
+public void setCompania(String compania) {
+	this.compania = compania;
+}
+
+public Integer getNpassageiro() {
+	return npassageiro;
+}
+
+public void setNpassageiro(Integer npassageiro) {
+	this.npassageiro = npassageiro;
+}
+
+public void AvisoC() {System.out.println("Seu onibus chegou!");
+}
+public void MenssagemA() {System.out.println("Tenha uma boa viagem!");
+}
+@Override
+public String toString() {
+	return "Compania: "+compania+" |"+" Numero de passageiros é de: "+npassageiro; 
+	
+}
+
+
+}
