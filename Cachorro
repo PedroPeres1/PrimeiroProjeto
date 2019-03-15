@@ -6,7 +6,7 @@ public Cachorro() {
  super();
 }
 
-public Cachorro(String string, Integer i) {
+public Cachorro(String nome, Integer idade) {
 	// TODO Auto-generated constructor stub
 }
 
@@ -27,5 +27,9 @@ public void setIdade(Integer idade) {
 }
 public void latir() {System.out.println("AUO! AUO!");
 }
-public void correr() {System.out.println("Correr!!!");}
+public void correr() {System.out.println("Correr!!!");
+}
+@Override
+public String toString() {
+	return "Nome:"+nome+" |"+" Idade:"+idade; 
 }
