@@ -1,0 +1,26 @@
+
+public class OnibusTeste {
+// Class Main
+	public static void main(String[] args) {
+		Onibus a=new Onibus("TCB", 15);
+		Onibus b=new Onibus("São Jose", 25);
+		Onibus c=new Onibus("Viação Marechal", 18);
+
+		
+		
+System.out.println(a.toString());
+a.AvisoC();
+a.MenssagemA();
+
+System.out.println(b.toString());	
+b.AvisoC();
+b.MenssagemA();
+
+System.out.println(c.toString());
+c.AvisoC();
+c.MenssagemA();
+
+
+	}
+
+}
